@@ -1,23 +1,18 @@
-[A MODIFIER : remplacer avec votre logo s'il ne s'agit pas d'un projet CI-SIS]
-
 ![Logo_LEF_CI-SIS](https://user-images.githubusercontent.com/48218773/227532484-eff82649-4e42-49c6-966a-dc3ea78cf59c.png)
 
-[A MODIFIER : adapter au lien du projet]
-
-[![Workflow Init](https://github.com/ansforge/IG-fhir-partage-de-documents-de-sante/actions/workflows/fhir-workflows.yml/badge.svg)](https://github.com/ansforge/IG-fhir-partage-de-documents-de-sante/actions/workflows/fhir-workflows.yml)
+[![Workflow CI-build](https://github.com/nriss/test-minimal-ig/actions/workflows/fhir-workflows.yml/badge.svg)](https://github.com/nriss/test-minimal-ig/actions/workflows/fhir-workflows.yml)
 
 Cet exemple d'Implementation Guide (IG) très simplifié sert de base pour le développement de nouveaux guides d'implémentation. La démarche d'élaboration d'un nouvel IG est expliquée dans le [wiki de ce repo](https://github.com/ansforge/IG-modele/wiki).
-Le README ci-dessous constitue un template à adapter et compléter pour chaque projet.
 
 # Contexte
 
 ## Contexte métier du projet
 
-[A COMPLETER : doit contenir la description fonctionnelle du projet destinée à un profil non technique]
+Pas de contexte métier : ce repo n'est pas un projet d'IG, c'est un bac à sable utilisé pour valider rapidement des changements apportés au template ANS ([ansforge/interop-IG-style](https://github.com/ansforge/interop-IG-style), anciennement `IG-template`), sans attendre les temps de build plus longs des IGs de production.
 
 ## Contexte technique du projet
 
-[A COMPLETER : doit expliquer brièvement quelles ressources / profils sont utilisés, exemple implémentation où IG est utilisé]
+`ig.ini` référence actuellement la branche `cda-remove-js-template` du template ([PR ansforge/interop-IG-style#39](https://github.com/ansforge/interop-IG-style/pull/39)), qui retire tous les fichiers `.js` physiques du template (inlinés dans les fragments HTML) pour satisfaire la vérification de confiance de l'auto-build HL7 (`Template has file extensions: [.js]`). Ce repo sert à vérifier que l'IG se build toujours correctement avec ce template modifié, avant de merger la correction sur `cda`.
 
 # CI/CD
 
@@ -25,13 +20,12 @@ Les workflows associés à ce repository (.github/workflows) permettent :
 
 * D'executer Sushi pour vérifier la grammaire
 * De faire les tests avec le validator_cli
-* De publier les pages : https://ansforge.github.io/{nom du repo}/{nom de la branche}/ig
+* De publier les pages : https://nriss.github.io/test-minimal-ig/main/ig/
 
 # Notes
 
 Ce repo "IG-modele" a été créé à partir du repo [sample-ig](https://github.com/FHIR/sample-ig) de l'organisation GitHub FHIR.
 
-[A COMPLETER: notes supplémentaires pour le lecteur de la spec]
 Un commentaire ? Une remarque ? Utilisez les GitHub [issues](https://docs.github.com/fr/issues) pour indiquer vos propositions d'amélioration et de correction.
 
 ## Acronymes
