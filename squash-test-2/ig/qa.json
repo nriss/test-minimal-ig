@@ -1,0 +1,20 @@
+{
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/ImplementationGuide/ans.fhir.fr.test-minimal",
+  "name" : "ExampleIG",
+  "title" : "ANS IG Example",
+  "description" : "Description du projet",
+  "status" : "draft",
+  "package-id" : "ans.fhir.fr.test-minimal",
+  "ig-ver" : "0.1.0",
+  "date" : "Sun, 18 Oct, 2026 11:28:07 +0000",
+  "dateISO8601" : "2026-10-18T11:28:07+00:00",
+  "errs" : 0,
+  "warnings" : 207,
+  "hints" : 11,
+  "broken-links" : 6,
+  "suppressed-hints" : 83,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 911350856
+}

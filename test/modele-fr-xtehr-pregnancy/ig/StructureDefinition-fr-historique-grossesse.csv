@@ -1,0 +1,27 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: Xt-EHR EHDSPregnancyHistory (EN)","Mapping: RIM Mapping"
+"fr-historique-grossesse","fr-historique-grossesse","","","",0,*,"","","","null {[]} {[]}
+","Historique de grossesse (FR) - miroir du modèle Xt-EHR EHDSPregnancyHistory","Modèle logique métier en français, structurellement aligné sur le modèle européen Xt-EHR EHDSPregnancyHistory. Chaque attribut est mappé vers son équivalent anglais d'origine (identity xt-ehr-pregnancy-history).","","","","","","","","","",,,,,"",,,,"Base",0,*,"","","n/a"
+"fr-historique-grossesse.entete","fr-historique-grossesse.entete","","","",1,1,"","","","Base {[]} {[]}
+","Informations générales (équivalent du header Xt-EHR)","Informations générales (équivalent du header Xt-EHR)","","","","","","","","","",,,,,"",,,,"fr-historique-grossesse.entete",1,1,"","","header"
+"fr-historique-grossesse.entete.sujet","fr-historique-grossesse.entete.sujet","","","",1,1,"","","","Base {[]} {[]}
+","Patient concerné par la grossesse","Patient concerné par la grossesse","","","","","","","","","",,,,,"",,,,"fr-historique-grossesse.entete.sujet",1,1,"","","header.subject"
+"fr-historique-grossesse.entete.identifiant","fr-historique-grossesse.entete.identifiant","","","",0,*,"","","","Identifier {[]} {[]}
+","Identifiant métier, unique dans son système","Identifiant métier, unique dans son système","","","","","","","","","",,,,,"",,,,"fr-historique-grossesse.entete.identifiant",0,*,"","","header.identifier"
+"fr-historique-grossesse.entete.auteur","fr-historique-grossesse.entete.auteur","","","",0,*,"","","","Base {[]} {[]}
+","Auteur(s) responsable(s) de l'information fournie","Auteur(s) responsable(s) de l'information fournie","","","","","","","","","",,,,,"",,,,"fr-historique-grossesse.entete.auteur",0,*,"","","header.author[x]"
+"fr-historique-grossesse.entete.date","fr-historique-grossesse.entete.date","","","",0,1,"","","","dateTime {[]} {[]}
+","Date (et heure éventuelle) de rédaction","Date (et heure éventuelle) de rédaction","","","","","","","","","",,,,,"",,,,"fr-historique-grossesse.entete.date",0,1,"","","header.date"
+"fr-historique-grossesse.entete.statut","fr-historique-grossesse.entete.statut","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Statut de cette observation","Statut de cette observation","","","","","","","","","",,,,,"",,,,"fr-historique-grossesse.entete.statut",1,1,"","","header.status"
+"fr-historique-grossesse.entete.source","fr-historique-grossesse.entete.source","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Source de l'information (ex. patient ou son représentant)","Source de l'information (ex. patient ou son représentant)","","","","","","","","","",,,,,"",,,,"fr-historique-grossesse.entete.source",0,1,"","","header.source"
+"fr-historique-grossesse.entete.langue","fr-historique-grossesse.entete.langue","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Langue du contenu","Langue du contenu","","","","","","","","","",,"preferred","BCP 47","","",,,,"fr-historique-grossesse.entete.langue",0,1,"","","header.language"
+"fr-historique-grossesse.dateFin","fr-historique-grossesse.dateFin","","","",0,1,"","","","dateTime {[]} {[]}
+","Date de fin de la grossesse","Date de fin de la grossesse","","","","","","","","","",,,,,"",,,,"fr-historique-grossesse.dateFin",0,1,"","","endDate"
+"fr-historique-grossesse.issue","fr-historique-grossesse.issue","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Issue de la grossesse","Issue de la grossesse","","","","","","","","","",,"preferred","SNOMED CT","","",,,,"fr-historique-grossesse.issue",0,1,"","","outcome"
+"fr-historique-grossesse.nombreDeFoetus","fr-historique-grossesse.nombreDeFoetus","","","",0,1,"","","","integer {[]} {[]}
+","Nombre d'enfants ou de fœtus pour cette grossesse","Nombre d'enfants ou de fœtus pour cette grossesse","","","","","","","","","",,,,,"",,,,"fr-historique-grossesse.nombreDeFoetus",0,1,"","","numberOfFetuses"
+"fr-historique-grossesse.note","fr-historique-grossesse.note","","","",0,1,"","","","string {[]} {[]}
+","Notes en texte libre du professionnel de santé","Notes en texte libre du professionnel de santé","","","","","","","","","",,,,,"",,,,"fr-historique-grossesse.note",0,1,"","","note"

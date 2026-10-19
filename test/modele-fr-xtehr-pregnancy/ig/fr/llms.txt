@@ -1,0 +1,52 @@
+# ans.fhir.fr.test-minimal#0.1.0: ANS IG Example(fr)
+
+## Pages
+
+* [Accueil](index.md)
+* [Introduction](spec-technique-intro.md)
+* [Téléchargements et usages](annexe-downloads.md)
+* [Sécurité](annexe-securite.md)
+* [Flux de consommation](spec-technique-flux-consommation.md)
+* [Alimentation](spec-fonctionnelle-alimentation.md)
+* [Informations sur la traduction](translationinfo.md)
+* [Vue d'ensemble](spec-fonctionnelle-intro.md)
+* [Vue d'ensemble](spec-technique-vue-ensemble.md)
+* [Résumé des artefacts](artifacts.md)
+* [Autres Ressources](autres_ressources.md)
+* [Historique des versions](change-log.md)
+* [Flux d'alimentation](spec-technique-flux-alimentation.md)
+
+## Resources
+
+### CodeSystems
+
+* [Compétences CodeSystem](CodeSystem-competence-code-system.md)
+* [Type de carte](CodeSystem-type-carte-code-system.md)
+
+### ValueSets
+
+* [EyeColor Value Set](ValueSet-EyeColorVS.md)
+* [Melting Pot Value Set](ValueSet-MeltingPotVS.md)
+* [ModifiedAdministrativeGender](ValueSet-ModifiedAdministrativeGender.md)
+* [Type Carte Value Set](ValueSet-TypeCarteVS.md)
+
+### Logicals
+
+* [Historique de grossesse (FR) - héritage réel avec tentative de renommage](StructureDefinition-fr-historique-grossesse-heritage.md)
+* [Historique de grossesse (FR) - miroir du modèle Xt-EHR EHDSPregnancyHistory](StructureDefinition-fr-historique-grossesse.md)
+
+### Resource Profiles
+
+* [Patient français](StructureDefinition-fr-patient.md)
+
+### Extensions
+
+* [EyeColor](StructureDefinition-EyeColor.md)
+
+### ImplementationGuides
+
+* [ANS IG Example](ImplementationGuide-ans.fhir.fr.test-minimal.md)
+
+### Examples
+
+* [frpatient-exemple (Patient)](Patient-frpatient-exemple.md)

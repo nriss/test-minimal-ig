@@ -1,0 +1,11 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: Glossaire métier (FR)"
+"test-attribut-fr","test-attribut-fr","","","",0,*,"","","","null {[]} {[]}
+","Test - équivalents métier FR pour un attribut anglais","Modèle logique minimal destiné à tester, dans un IG réel, les mécanismes natifs de l'outillage FHIR permettant de faire apparaître un équivalent métier en français à côté du nom technique (anglais) d'un attribut de modèle logique : alias (Alternate Names) et mapping vers un glossaire métier.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"test-attribut-fr.quantityPrescribed","test-attribut-fr.quantityPrescribed","","Quantité prescrite
+","Quantité prescrite",0,1,"","","","Quantity {[]} {[]}
+","Quantité prescrite","Quantité totale de traitement prescrite, indépendamment des séquences de prise.","","","","","","","","","",,,,,"",,,,"test-attribut-fr.quantityPrescribed",0,1,"","","Quantité prescrite"
+"test-attribut-fr.numberOfRepeats","test-attribut-fr.numberOfRepeats","","Nombre de renouvellements
+","Nombre de renouvellements",0,1,"","","","integer {[]} {[]}
+","Nombre de renouvellements","Nombre de renouvellements possibles de la prescription. Non renseigné si pas de limite.","","","","","","","","","",,,,,"",,,,"test-attribut-fr.numberOfRepeats",0,1,"","","Nombre de renouvellements"
+"test-attribut-fr.validityPeriod","test-attribut-fr.validityPeriod","","","",0,1,"","","","Period {[]} {[]}
+","Période de validité","Période de validité de la ligne de prescription.","","","","","","","","","",,,,,"",,,,"test-attribut-fr.validityPeriod",0,1,"",""

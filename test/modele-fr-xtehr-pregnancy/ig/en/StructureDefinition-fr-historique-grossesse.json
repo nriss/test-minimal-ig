@@ -1,0 +1,515 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "fr-historique-grossesse",
+  "language" : "en",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: StructureDefinition fr-historique-grossesse</b></p><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"xhtTableBorder0\"><tr class=\"xhtRowBorder1\"><th scope=\"col\" style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th scope=\"col\" style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th scope=\"col\" style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th scope=\"col\" style=\"; width: 100px\" class=\"hierarchy xhtCellBorder0\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th scope=\"col\" style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck1.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse\" title=\"Modèle logique métier en français, structurellement aligné sur le modèle européen Xt-EHR EHDSPregnancyHistory. Chaque attribut est mappé vers son équivalent anglais d'origine (identity xt-ehr-pregnancy-history).\">fr-historique-grossesse</a><a name=\"en-fr-historique-grossesse\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\"><span class=\"xhtPieceDeEmphasized\">0</span><span class=\"xhtPieceDeEmphasized\">..</span><span class=\"xhtPieceDeEmphasized\">*</span></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R5/types.html#Base\">Base(5.0.0)</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Historique de grossesse (FR) - miroir du modèle Xt-EHR EHDSPregnancyHistory</td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck11.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.entete\" title=\"Informations générales (équivalent du header Xt-EHR)\">entete</a><a name=\"en-fr-historique-grossesse.entete\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">1..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Base</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Informations générales (équivalent du header Xt-EHR)</td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck110.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.entete.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.entete.sujet\" title=\"Patient concerné par la grossesse\">sujet</a><a name=\"en-fr-historique-grossesse.entete.sujet\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">1..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Base</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Patient concerné par la grossesse</td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck110.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.entete.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.entete.identifiant\" title=\"Identifiant métier, unique dans son système\">identifiant</a><a name=\"en-fr-historique-grossesse.entete.identifiant\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..*</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R5/datatypes.html#Identifier\">Identifier</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Identifiant métier, unique dans son système<br/></td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck110.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.entete.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.entete.auteur\" title=\"Auteur(s) responsable(s) de l'information fournie\">auteur</a><a name=\"en-fr-historique-grossesse.entete.auteur\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..*</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Base</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Auteur(s) responsable(s) de l'information fournie<br/></td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck110.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.entete.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.entete.date\" title=\"Date (et heure éventuelle) de rédaction\">date</a><a name=\"en-fr-historique-grossesse.entete.date\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R5/datatypes.html#dateTime\">dateTime</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Date (et heure éventuelle) de rédaction</td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck110.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.entete.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.entete.statut\" title=\"Statut de cette observation\">statut</a><a name=\"en-fr-historique-grossesse.entete.statut\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">1..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R5/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Statut de cette observation</td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck110.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.entete.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.entete.source\" title=\"Source de l'information (ex. patient ou son représentant)\">source</a><a name=\"en-fr-historique-grossesse.entete.source\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R5/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Source de l'information (ex. patient ou son représentant)</td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck100.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.entete.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.entete.langue\" title=\"Langue du contenu\">langue</a><a name=\"en-fr-historique-grossesse.entete.langue\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R5/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Langue du contenu<br class=\"binding\"/><span class=\"xhtPieceBold binding\">Binding Description: </span><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R5/terminologies.html#preferred\" title=\"Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.\" class=\"binding\">preferred</a><span class=\"binding\">)</span><span class=\"binding\">: </span><span class=\"binding\">BCP 47</span></td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.dateFin\" title=\"Date de fin de la grossesse\">dateFin</a><a name=\"en-fr-historique-grossesse.dateFin\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R5/datatypes.html#dateTime\">dateTime</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Date de fin de la grossesse</td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.issue\" title=\"Issue de la grossesse\">issue</a><a name=\"en-fr-historique-grossesse.issue\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R5/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Issue de la grossesse<br class=\"binding\"/><span class=\"xhtPieceBold binding\">Binding Description: </span><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R5/terminologies.html#preferred\" title=\"Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.\" class=\"binding\">preferred</a><span class=\"binding\">)</span><span class=\"binding\">: </span><span class=\"binding\">SNOMED CT</span></td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.nombreDeFoetus\" title=\"Nombre d'enfants ou de fœtus pour cette grossesse\">nombreDeFoetus</a><a name=\"en-fr-historique-grossesse.nombreDeFoetus\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R5/datatypes.html#integer\">integer</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Nombre d'enfants ou de fœtus pour cette grossesse</td></tr>\r\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck00.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">fr-historique-grossesse.</span><a href=\"StructureDefinition-fr-historique-grossesse-definitions.html#fr-historique-grossesse.note\" title=\"Notes en texte libre du professionnel de santé\">note</a><a name=\"en-fr-historique-grossesse.note\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R5/datatypes.html#string\">string</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Notes en texte libre du professionnel de santé</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/StructureDefinition/fr-historique-grossesse",
+  "version" : "0.1.0",
+  "name" : "HistoriqueGrossesseFR",
+  "title" : "Historique de grossesse (FR) - miroir du modèle Xt-EHR EHDSPregnancyHistory",
+  "status" : "draft",
+  "date" : "2026-10-19T12:21:19+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Modèle logique métier en français, structurellement aligné sur le modèle européen Xt-EHR EHDSPregnancyHistory. Chaque attribut est mappé vers son équivalent anglais d'origine (identity xt-ehr-pregnancy-history).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "fhirVersion" : "5.0.0",
+  "mapping" : [{
+    "identity" : "xt-ehr-pregnancy-history",
+    "uri" : "https://www.xt-ehr.eu/fhir/models/en/StructureDefinition-EHDSPregnancyHistory.html",
+    "name" : "Xt-EHR EHDSPregnancyHistory (EN)"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "logical",
+  "abstract" : false,
+  "type" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/StructureDefinition/fr-historique-grossesse",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base|5.0.0",
+  "derivation" : "specialization",
+  "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "5.0.0"
+    }],
+    "element" : [{
+      "id" : "fr-historique-grossesse",
+      "path" : "fr-historique-grossesse",
+      "short" : "Historique de grossesse (FR) - miroir du modèle Xt-EHR EHDSPregnancyHistory",
+      "definition" : "Modèle logique métier en français, structurellement aligné sur le modèle européen Xt-EHR EHDSPregnancyHistory. Chaque attribut est mappé vers son équivalent anglais d'origine (identity xt-ehr-pregnancy-history).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Base",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete",
+      "path" : "fr-historique-grossesse.entete",
+      "short" : "Informations générales (équivalent du header Xt-EHR)",
+      "definition" : "Informations générales (équivalent du header Xt-EHR)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "fr-historique-grossesse.entete",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Base"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.sujet",
+      "path" : "fr-historique-grossesse.entete.sujet",
+      "short" : "Patient concerné par la grossesse",
+      "definition" : "Patient concerné par la grossesse",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "fr-historique-grossesse.entete.sujet",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Base"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.subject"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.identifiant",
+      "path" : "fr-historique-grossesse.entete.identifiant",
+      "short" : "Identifiant métier, unique dans son système",
+      "definition" : "Identifiant métier, unique dans son système",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "fr-historique-grossesse.entete.identifiant",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.identifier"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.auteur",
+      "path" : "fr-historique-grossesse.entete.auteur",
+      "short" : "Auteur(s) responsable(s) de l'information fournie",
+      "definition" : "Auteur(s) responsable(s) de l'information fournie",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "fr-historique-grossesse.entete.auteur",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Base"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.author[x]"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.date",
+      "path" : "fr-historique-grossesse.entete.date",
+      "short" : "Date (et heure éventuelle) de rédaction",
+      "definition" : "Date (et heure éventuelle) de rédaction",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "fr-historique-grossesse.entete.date",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.date"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.statut",
+      "path" : "fr-historique-grossesse.entete.statut",
+      "short" : "Statut de cette observation",
+      "definition" : "Statut de cette observation",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "fr-historique-grossesse.entete.statut",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.status"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.source",
+      "path" : "fr-historique-grossesse.entete.source",
+      "short" : "Source de l'information (ex. patient ou son représentant)",
+      "definition" : "Source de l'information (ex. patient ou son représentant)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "fr-historique-grossesse.entete.source",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.source"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.langue",
+      "path" : "fr-historique-grossesse.entete.langue",
+      "short" : "Langue du contenu",
+      "definition" : "Langue du contenu",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "fr-historique-grossesse.entete.langue",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "BCP 47"
+      },
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.language"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.dateFin",
+      "path" : "fr-historique-grossesse.dateFin",
+      "short" : "Date de fin de la grossesse",
+      "definition" : "Date de fin de la grossesse",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "fr-historique-grossesse.dateFin",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "endDate"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.issue",
+      "path" : "fr-historique-grossesse.issue",
+      "short" : "Issue de la grossesse",
+      "definition" : "Issue de la grossesse",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "fr-historique-grossesse.issue",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "SNOMED CT"
+      },
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "outcome"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.nombreDeFoetus",
+      "path" : "fr-historique-grossesse.nombreDeFoetus",
+      "short" : "Nombre d'enfants ou de fœtus pour cette grossesse",
+      "definition" : "Nombre d'enfants ou de fœtus pour cette grossesse",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "fr-historique-grossesse.nombreDeFoetus",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "integer"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "numberOfFetuses"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.note",
+      "path" : "fr-historique-grossesse.note",
+      "short" : "Notes en texte libre du professionnel de santé",
+      "definition" : "Notes en texte libre du professionnel de santé",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "fr-historique-grossesse.note",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "note"
+      }]
+    }]
+  },
+  "differential" : {
+    "element" : [{
+      "id" : "fr-historique-grossesse",
+      "path" : "fr-historique-grossesse",
+      "short" : "Historique de grossesse (FR) - miroir du modèle Xt-EHR EHDSPregnancyHistory",
+      "definition" : "Modèle logique métier en français, structurellement aligné sur le modèle européen Xt-EHR EHDSPregnancyHistory. Chaque attribut est mappé vers son équivalent anglais d'origine (identity xt-ehr-pregnancy-history)."
+    },
+    {
+      "id" : "fr-historique-grossesse.entete",
+      "path" : "fr-historique-grossesse.entete",
+      "short" : "Informations générales (équivalent du header Xt-EHR)",
+      "definition" : "Informations générales (équivalent du header Xt-EHR)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Base"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.sujet",
+      "path" : "fr-historique-grossesse.entete.sujet",
+      "short" : "Patient concerné par la grossesse",
+      "definition" : "Patient concerné par la grossesse",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Base"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.subject"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.identifiant",
+      "path" : "fr-historique-grossesse.entete.identifiant",
+      "short" : "Identifiant métier, unique dans son système",
+      "definition" : "Identifiant métier, unique dans son système",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Identifier"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.identifier"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.auteur",
+      "path" : "fr-historique-grossesse.entete.auteur",
+      "short" : "Auteur(s) responsable(s) de l'information fournie",
+      "definition" : "Auteur(s) responsable(s) de l'information fournie",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Base"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.author[x]"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.date",
+      "path" : "fr-historique-grossesse.entete.date",
+      "short" : "Date (et heure éventuelle) de rédaction",
+      "definition" : "Date (et heure éventuelle) de rédaction",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.date"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.statut",
+      "path" : "fr-historique-grossesse.entete.statut",
+      "short" : "Statut de cette observation",
+      "definition" : "Statut de cette observation",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.status"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.source",
+      "path" : "fr-historique-grossesse.entete.source",
+      "short" : "Source de l'information (ex. patient ou son représentant)",
+      "definition" : "Source de l'information (ex. patient ou son représentant)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.source"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.entete.langue",
+      "path" : "fr-historique-grossesse.entete.langue",
+      "short" : "Langue du contenu",
+      "definition" : "Langue du contenu",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "BCP 47"
+      },
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "header.language"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.dateFin",
+      "path" : "fr-historique-grossesse.dateFin",
+      "short" : "Date de fin de la grossesse",
+      "definition" : "Date de fin de la grossesse",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "endDate"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.issue",
+      "path" : "fr-historique-grossesse.issue",
+      "short" : "Issue de la grossesse",
+      "definition" : "Issue de la grossesse",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "SNOMED CT"
+      },
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "outcome"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.nombreDeFoetus",
+      "path" : "fr-historique-grossesse.nombreDeFoetus",
+      "short" : "Nombre d'enfants ou de fœtus pour cette grossesse",
+      "definition" : "Nombre d'enfants ou de fœtus pour cette grossesse",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "integer"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "numberOfFetuses"
+      }]
+    },
+    {
+      "id" : "fr-historique-grossesse.note",
+      "path" : "fr-historique-grossesse.note",
+      "short" : "Notes en texte libre du professionnel de santé",
+      "definition" : "Notes en texte libre du professionnel de santé",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }],
+      "mapping" : [{
+        "identity" : "xt-ehr-pregnancy-history",
+        "map" : "note"
+      }]
+    }]
+  }
+}

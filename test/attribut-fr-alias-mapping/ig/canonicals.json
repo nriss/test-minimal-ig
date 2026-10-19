@@ -1,0 +1,70 @@
+[{
+  "id" : "competence-code-system",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/CodeSystem/competence-code-system",
+  "version" : "0.1.0",
+  "name" : "CompetenceCS"
+},
+{
+  "id" : "type-carte-code-system",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/CodeSystem/type-carte-code-system",
+  "version" : "0.1.0",
+  "name" : "TypeCarteCS"
+},
+{
+  "id" : "ans.fhir.fr.test-minimal",
+  "type" : "ImplementationGuide",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/ImplementationGuide/ans.fhir.fr.test-minimal",
+  "version" : "0.1.0",
+  "name" : "ExampleIG"
+},
+{
+  "id" : "EyeColor",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/StructureDefinition/EyeColor",
+  "version" : "0.1.0",
+  "name" : "EyeColor"
+},
+{
+  "id" : "fr-patient",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/StructureDefinition/fr-patient",
+  "version" : "0.1.0",
+  "name" : "FrPatient"
+},
+{
+  "id" : "test-attribut-fr",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/StructureDefinition/test-attribut-fr",
+  "version" : "0.1.0",
+  "name" : "TestAttributFr"
+},
+{
+  "id" : "EyeColorVS",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/ValueSet/EyeColorVS",
+  "version" : "0.1.0",
+  "name" : "EyeColorVS"
+},
+{
+  "id" : "MeltingPotVS",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/ValueSet/MeltingPotVS",
+  "version" : "0.1.0",
+  "name" : "MeltingPotVS"
+},
+{
+  "id" : "ModifiedAdministrativeGender",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/ValueSet/ModifiedAdministrativeGender",
+  "version" : "0.1.0",
+  "name" : "ModifiedAdministrativeGender"
+},
+{
+  "id" : "TypeCarteVS",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-minimal/ValueSet/TypeCarteVS",
+  "version" : "0.1.0",
+  "name" : "TypeCarteVS"
+}]
